@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="ShareToMicrosoftTeams"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="71fbb332-2fa9-4532-abf1-1e056f86e38f"
+        Properties="{&quot;showJustOnSitePages&quot;:&quot;False&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

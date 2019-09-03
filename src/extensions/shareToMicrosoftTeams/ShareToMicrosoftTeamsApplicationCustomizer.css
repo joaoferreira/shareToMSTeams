@@ -1,0 +1,16 @@
+.teams-share-button{
+	position: fixed; 
+	width: 32px; 
+	height: 32px; 
+	top: 50%; 
+	padding: 5px; 
+	background-color: #373972;
+}
+
+@media screen and (max-width: 1024px) {
+    .teams-share-button {
+        width: 30px;
+        height: 30px;
+    }
+}
+

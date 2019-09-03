@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-to-microsoft-teams-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/shareToMicrosoftTeams/ShareToMicrosoftTeamsApplicationCustomizer.js",
+          "manifest": "./src/extensions/shareToMicrosoftTeams/ShareToMicrosoftTeamsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ShareToMicrosoftTeamsApplicationCustomizerStrings": "lib/extensions/shareToMicrosoftTeams/loc/{locale}.js"
+  }
+}
